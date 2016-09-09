@@ -77,7 +77,13 @@ $(document).ready(function () {
 ////        $("#networks").height($(window).height());
 ////        $("#networks").css("min-height","600px");
 ////    });
+    var progressBar = $('.progress-bar');
+    setInterval(addProgress, 1000);
+    function addProgress() {
+        var width = progressBar.width() + 15;
+        progressBar.width(width);
+    }
     $('#logo').click(function () {
-        $('html,body').animate({scrollTop:0},500);
+        $('html,body').animate({scrollTop: 0}, 500);
     });
 });

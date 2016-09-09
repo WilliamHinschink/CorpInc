@@ -5,102 +5,25 @@
                 <h2>Portfolio</h2>
                 <p class="lead">See some of our projects already underway by our satisfied customers.</p>
             </div><!--/.center-->
-            <!--            <ul class="portfolio-filter">
-                            <li><a class="btn btn-primary active" href="#" data-filter="*">All</a></li>
-                            <li><a class="btn btn-primary" href="#" data-filter=".bootstrap">Bootstrap</a></li>
-                            <li><a class="btn btn-primary" href="#" data-filter=".html">HTML</a></li>
-                            <li><a class="btn btn-primary" href="#" data-filter=".wordpress">Wordpress</a></li>
-                        </ul>/#portfolio-filter
-                        <ul class="portfolio-items col-4">
-                            <li class="portfolio-item apps">
-                                <div class="item-inner">
-                                    <div class="portfolio-image">
-                                        <img src="assets/images/portfolio/thumb/item1.jpg" alt="">
-                                        <div class="overlay">
-                                            <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="images/portfolio/full/item1.jpg"><i class="icon-eye-open"></i></a>             
-                                        </div>
-                                    </div>
-                                    <h5>Lorem ipsum dolor sit amet</h5>
-                                </div>
-                            </li>/.portfolio-item
-                            <li class="portfolio-item joomla bootstrap">
-                                <div class="item-inner">
-                                    <div class="portfolio-image">
-                                        <img src="assets/images/portfolio/thumb/item2.jpg" alt="">
-                                        <div class="overlay">
-                                            <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="assets/images/portfolio/full/item2.jpg"><i class="icon-eye-open"></i></a>  
-                                        </div>
-                                    </div> 
-                                    <h5>Lorem ipsum dolor sit amet</h5>         
-                                </div>
-                            </li>/.portfolio-item
-                            <li class="portfolio-item bootstrap wordpress">
-                                <div class="item-inner">
-                                    <div class="portfolio-image">
-                                        <img src="assets/images/portfolio/thumb/item3.jpg" alt="">
-                                        <div class="overlay">
-                                            <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="assets/images/portfolio/full/item3.jpg"><i class="icon-eye-open"></i></a>        
-                                        </div> 
-                                    </div>
-                                    <h5>Lorem ipsum dolor sit amet</h5>          
-                                </div>           
-                            </li>/.portfolio-item
-                            <li class="portfolio-item joomla wordpress apps">
-                                <div class="item-inner">
-                                    <div class="portfolio-image">
-                                        <img src="assets/images/portfolio/thumb/item4.jpg" alt="">
-                                        <div class="overlay">
-                                            <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="assets/images/portfolio/full/item4.jpg"><i class="icon-eye-open"></i></a>          
-                                        </div>   
-                                    </div>
-                                    <h5>Lorem ipsum dolor sit amet</h5>        
-                                </div>           
-                            </li>/.portfolio-item
-                            <li class="portfolio-item joomla html">
-                                <div class="item-inner">
-                                    <div class="portfolio-image">
-                                        <img src="assets/images/portfolio/thumb/item5.jpg" alt="">
-                                        <div class="overlay">
-                                            <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="assets/images/portfolio/full/item5.jpg"><i class="icon-eye-open"></i></a>          
-                                        </div>  
-                                    </div>
-                                    <h5>Lorem ipsum dolor sit amet</h5>  
-                                </div>       
-                            </li>/.portfolio-item
-                            <li class="portfolio-item wordpress html">
-                                <div class="item-inner">
-                                    <div class="portfolio-image">
-                                        <img src="assets/images/portfolio/thumb/item6.jpg" alt="">
-                                        <div class="overlay">
-                                            <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="assets/images/portfolio/full/item6.jpg"><i class="icon-eye-open"></i></a>           
-                                        </div>  
-                                    </div>
-                                    <h5>Lorem ipsum dolor sit amet</h5>         
-                                </div>           
-                            </li>/.portfolio-item
-                            <li class="portfolio-item joomla html">
-                                <div class="item-inner">
-                                    <div class="portfolio-image">
-                                        <img src="assets/images/portfolio/thumb/item5.jpg" alt="">
-                                        <div class="overlay">
-                                            <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="assets/images/portfolio/full/item5.jpg"><i class="icon-eye-open"></i></a>          
-                                        </div>  
-                                    </div>
-                                    <h5>Lorem ipsum dolor sit amet</h5>  
-                                </div>       
-                            </li>/.portfolio-item
-                            <li class="portfolio-item wordpress html">
-                                <div class="item-inner">
-                                    <div class="portfolio-image">
-                                        <img src="assets/images/portfolio/thumb/item6.jpg" alt="">
-                                        <div class="overlay">
-                                            <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="assets/images/portfolio/full/item6.jpg"><i class="icon-eye-open"></i></a>           
-                                        </div>   
-                                    </div>
-                                    <h5>Lorem ipsum dolor sit amet</h5>        
-                                </div>         
-                            </li>/.portfolio-item
-                        </ul>   -->
+            <ul class="portfolio-filter">
+                <li><a class="btn btn-primary active" href="#" data-filter="*">All</a></li>
+                <li><a class="btn btn-primary" href="#" data-filter=".bootstrap">Bootstrap</a></li>
+<!--                <li><a class="btn btn-primary" href="#" data-filter=".html">HTML</a></li>
+                <li><a class="btn btn-primary" href="#" data-filter=".wordpress">Wordpress</a></li>-->
+            </ul>
+            <ul class="portfolio-items col-4">
+                <li class="portfolio-item bootstrap wordpress">
+                    <div class="item-inner">
+                        <div class="portfolio-image">
+                            <img src="assets/images/portfolio/full/portifolio_dcotte.png" alt="">
+                            <div class="overlay">
+                                <a class="preview btn btn-danger" title="Visit Website <a target='_blank' href='http://dcotterock.hol.es' title='Click'>http://dcotterock.hol.es</a>" href="assets/images/portfolio/full/portifolio_dcotte.png"><i class="icon-eye-open"></i></a>        
+                            </div> 
+                        </div>
+                        <h5>D'cotte Rock</h5>          
+                    </div>           
+                </li>
+            </ul> 
         </div><!--/.box-->
     </div><!--/.container-->
 </section><!--/#portfolio-->
