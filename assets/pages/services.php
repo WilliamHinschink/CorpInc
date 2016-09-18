@@ -24,8 +24,8 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="center">
                         <i class="icon-edit icon-md icon-color3"></i>
-                        <h4>Consulting</h4>
-                        <p>You need help using any software? Do not get hours and hours researching a thousand solutions that do not work, instead <a href="#contact">contact us</a>.</p>
+                        <h4>Consulting/Outsourcing</h4>
+                        <p>You need help for your business? Do not get hours and hours researching a thousand solutions that do not work, instead <a href="#contact">contact us</a>.</p>
                     </div>
                 </div><!--/.col-md-4-->
                 <div class="col-md-4 col-sm-6">

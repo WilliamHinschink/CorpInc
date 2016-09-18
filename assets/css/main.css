@@ -45,10 +45,12 @@ a:focus {
     left: 0;
     width: 100%;
     height: 80px;
-    z-index: 99999;
+/*    z-index: 99999;*/
+    z-index: 9500;
 }
 #main-slider {
-    background-image: url(../images/slider-bg.jpg);
+    /*background-image: url(../images/slider-bg.jpg);*/
+    background-image: url(../images/back_main.png);
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
@@ -314,6 +316,9 @@ a:focus {
 #customers .lead{
     color: #FFF;
 }
+.carousel-content .lead{
+    text-shadow: 1px 1px 5px #777;
+}
 #customers {
     /*  background-image: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%),url(../images/customer-wall.jpg)*/
     background-image: url(../images/customer-wall.jpg);
@@ -481,13 +486,14 @@ a:focus {
     -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.2);
     -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.2);
     box-shadow: 0 1px 3px 0 rgba(0,0,0,.2);
-    overflow: hidden;
+    /*    overflow: hidden;*/
 }
 .navbar-default .first a {
     border-radius: 0 0 0 5px;
 }
 .navbar-default .navbar-brand {
-    margin-right: 50px;
+/*    margin-right: 50px;*/
+    margin-right: 5px;
     margin-left: 20px;
     width: 200px;
     height: 78px;
@@ -597,6 +603,7 @@ ul.social > li > a i {
 textarea#message {
     padding: 10px 15px;
     height: 220px;
+    resize: none;
 }
 @keyframes scaleUp {
     0% {
@@ -665,7 +672,7 @@ html > body #main-slider {height:auto}/*for mozilla */
     position: absolute;
     border: 3px solid #fff;
     border-radius: 50%;
-    width: 3.3333%;
+    width: 42.333px;
     left: 0;
     right: 0;
     margin: auto;
@@ -742,29 +749,29 @@ select:required:invalid{
     cursor: pointer;
 }
 .embed-responsive {
-  position: relative;
-  display: block;
-  height: 0;
-  padding: 0;
-  overflow: hidden;
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
 }
 .embed-responsive .embed-responsive-item,
 .embed-responsive iframe,
 .embed-responsive embed,
 .embed-responsive object {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 .embed-responsive.embed-responsive-16by9 {
-  padding-bottom: 56.25%;
+    padding-bottom: 56.25%;
 }
 .embed-responsive.embed-responsive-4by3 {
-  padding-bottom: 75%;
+    padding-bottom: 75%;
 }
 .progress-bar-striped{
     background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -776,24 +783,80 @@ select:required:invalid{
 
 .progress-bar-beauty {
     background-image:
-	   -moz-linear-gradient(-45deg, 
-	                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
-	                           rgba(0,0, 0, .1) 66%, transparent 66%),
-	   -moz-linear-gradient(top, 
-	                           rgba(255, 255, 255, .25), 
-	                           rgba(0, 0, 0, .25)),
-	   -moz-linear-gradient(left, #09c, #f44);
+        -moz-linear-gradient(-45deg, 
+        transparent 33%, rgba(0, 0, 0, .1) 33%, 
+        rgba(0,0, 0, .1) 66%, transparent 66%),
+        -moz-linear-gradient(top, 
+        rgba(255, 255, 255, .25), 
+        rgba(0, 0, 0, .25)),
+        -moz-linear-gradient(left, #09c, #f44);
 
-  
-  background-image:
-	   -webkit-linear-gradient(-45deg, 
-	                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
-	                           rgba(0,0, 0, .1) 66%, transparent 66%),
-	   -webkit-linear-gradient(top, 
-	                           rgba(255, 255, 255, .25), 
-	                           rgba(0, 0, 0, .25)),
-	   -webkit-linear-gradient(left, #09c, #f44);
+
+    background-image:
+        -webkit-linear-gradient(-45deg, 
+        transparent 33%, rgba(0, 0, 0, .1) 33%, 
+        rgba(0,0, 0, .1) 66%, transparent 66%),
+        -webkit-linear-gradient(top, 
+        rgba(255, 255, 255, .25), 
+        rgba(0, 0, 0, .25)),
+        -webkit-linear-gradient(left, #09c, #f44);
 
     border-radius: 2px; 
     background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button
+/*input[type=number]::-moz-inner-spin-button, 
+input[type=number]::-moz-outer-spin-button */{
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.dropStyle{
+    float: right;
+    padding: 2.09444444% 0;
+}
+.flag{
+    background-size: contain !important;
+    margin: 6px 10px;
+}
+.spain{
+    background: url('../images/flags/Spain.png') no-repeat;
+}
+.usa{
+    background: url('../images/flags/United_States_Flag.png') no-repeat;
+}
+.portugal{
+    background: url('../images/flags/Portugal.png') no-repeat;
+}
+.dropdown-menu>li>a {
+    line-height: normal;
+    padding-left: 30px;
+    vertical-align: middle;
+}
+.img-center{
+    /*  center div
+        position: relative;
+        width: 100%;
+        height: 380px;
+        
+        center-img
+        position: absolute;
+        margin: auto;
+        
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;*/
+    margin: auto;
+}
+.dropdown-menu {
+    min-width: 1px;
+}
+.container{
+/*    max-width: 100%;*/
 }

@@ -6,6 +6,7 @@
 <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 <link href="assets/css/prettyPhoto.css" rel="stylesheet">
 <link href="assets/css/main.css" rel="stylesheet">
+<link href="https://cdn.rawgit.com/usrz/bootstrap-languages/master/languages.css" rel="stylesheet">
 <!--[if lt IE 9]>
 <script src="assets/js/html5shiv.js"></script>
 <script src="assets/js/respond.min.js"></script>

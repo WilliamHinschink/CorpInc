@@ -3,8 +3,8 @@
         <div class="item active">
             <div class="container">
                 <div class="carousel-content">
-                    <h1></h1>
-                    <p class="lead"><br></p>
+                    <h1>Creation of projects</h1>
+                    <p class="lead">Susefiopejfe ewgopijewgiop egijweiopgjwe <br>gegkjew gpwekgpwe</p>
                 </div>
             </div>
         </div><!--/.item-->

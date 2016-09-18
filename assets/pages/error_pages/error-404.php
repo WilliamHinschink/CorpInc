@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
+    <?php
+    include '../head.php';
+    ?>
+    <body style="background: #FFF;">
         <?php
-        echo '<h1>Error 404</h1>';
+        echo '<div style="font-size: 10vh;padding-top: 40px;" class="text-center">Ops! Error 404<i id="blink">_</i></div>';
+        ?>
+        <img src="assets/images/404.jpg" class="img-responsive img-center" alt="Error image" title="Error 404" />
+        <?php
+        include '../footer.php';
         ?>
     </body>
 </html>

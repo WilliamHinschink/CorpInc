@@ -15,3 +15,4 @@
 <script src="assets/js/jquery.isotope.min.js"></script>
 <script src="assets/js/jquery.prettyPhoto.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="https://cdn.rawgit.com/digitalBush/jquery.maskedinput/1.4.1/dist/jquery.maskedinput.min.js"></script>

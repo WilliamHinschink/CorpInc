@@ -5,6 +5,7 @@
         <group>
             <file>file:/C:/xampp/htdocs/MyCorp/assets/css/bootstrap.min.css</file>
             <file>file:/C:/xampp/htdocs/MyCorp/assets/pages/head.php</file>
+            <file>file:/C:/xampp/htdocs/MyCorp/classes/sendemail.php</file>
             <file>file:/C:/xampp/htdocs/MyCorp/assets/pages/contacts.php</file>
             <file>file:/C:/xampp/htdocs/MyCorp/assets/pages/about.php</file>
             <file>file:/C:/xampp/htdocs/MyCorp/assets/pages/footer.php</file>

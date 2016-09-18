@@ -8,14 +8,14 @@ jQuery(function ($) {
     });
 
     //Ajax contact
-    var form = $('.contact-form');
-    form.submit(function () {
-        $this = $(this);
-        $.post($(this).attr('action'), function (data) {
-            $this.prev().text(data.message).fadeIn().delay(3000).fadeOut();
-        }, 'json');
-        return false;
-    });
+//    var form = $('.contact-form');
+//    form.submit(function () {
+//        $this = $(this);
+//        $.post($(this).attr('action'), function (data) {
+//            $this.prev().text(data.message).fadeIn().delay(3000).fadeOut();
+//        }, 'json');
+//        return false;
+//    });
 
     //smooth scroll
     $('.navbar-nav > li').click(function (event) {
@@ -62,6 +62,16 @@ jQuery(function ($) {
 });
 
 $(document).ready(function () {
+    $("#phone").mask("(99) 9999?9-9999");
+    $("#phone").on("blur", function () {
+        var last = $(this).val().substr($(this).val().indexOf("-") + 1);
+        if (last.length == 3) {
+            var move = $(this).val().substr($(this).val().indexOf("-") - 1, 1);
+            var lastfour = move + last;
+            var first = $(this).val().substr(0, 9);
+            $(this).val(first + '-' + lastfour);
+        }
+    });
 //    $("#main-slider").height($(window).height());
 //    $(window).resize(function(){
 //        $("#main-slider").height($(window).height());
@@ -86,4 +96,22 @@ $(document).ready(function () {
     $('#logo').click(function () {
         $('html,body').animate({scrollTop: 0}, 500);
     });
+//    var request;
+//    $('#main-contact-form').submit(function (event) {
+//        var $form = $(this);
+//        var $inputs = $form.find("input, select, button, textarea");
+//        var serializedData = $form.serialize();
+//        request = $.ajax({
+//            url: "/sendemail.php",
+//            type: 'POST',
+//            data: serializedData
+//        });
+//
+//    });
+    setInterval(function () {
+        blink();
+    }, 1000);
+    function blink() {
+        $("#blink").fadeTo(300, 0).fadeTo(400, 1.0);        
+    }
 });

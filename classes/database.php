@@ -1,13 +1,13 @@
 <?php
 
-$dbServer = 'mysql.hostinger.com.br';
-$dbUser = 'u294567397_sheld';
-$dbPassword = 'W@rcurs31';
-$dbDatabase = 'u294567397_siebe';
-//$dbServer = '127.0.0.1';
-//$dbUser = 'sheldon';
-//$dbPassword = '5up3rColl1d3r';
-//$dbDatabase = 'db_siebentek';
+//$dbServer = 'mysql.hostinger.com.br';
+//$dbUser = 'u294567397_sheld';
+//$dbPassword = 'W@rcurs31';
+//$dbDatabase = 'u294567397_siebe';
+$dbServer = '127.0.0.1';
+$dbUser = 'sheldon';
+$dbPassword = '5up3rColl1d3r';
+$dbDatabase = 'db_siebentek';
 
 $conection = mysqli_connect($dbServer, $dbUser, $dbPassword, $dbDatabase);
 

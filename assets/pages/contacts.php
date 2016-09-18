@@ -14,23 +14,28 @@ $service = array(
                     <h1>Needing help?</h1>
                     <p>Contact us and let's have a coffee.</p>
                     <div class="status alert alert-success" style="display: none"></div>
-                    <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php" role="form">
+                    <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="./classes/sendemail.php" role="form">
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" required="required" placeholder="Name">
+                                    <input type="text" class="form-control" required="required" placeholder="Name" name="name">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" required="required" placeholder="Email address">
+                                    <input type="email" class="form-control" required="required" placeholder="Email address" name="email">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-12">
+                            <div class="col-sm-6">
                                 <div class="form-group">
-                                    <select class="form-control" required="required">
+                                    <input type="text" class="form-control" required="required" placeholder="Phone" id="phone" name="phone">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <select class="form-control" required="required" name="selection">
                                         <option selected disabled>Selection...</option>
                                         <?php foreach ($listCategories as $service) : ?>
                                             <option value="<?php echo $service['serv_cat_id']; ?>"><?php echo $service['serv_cat_nome']; ?></option>
